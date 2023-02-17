@@ -1,6 +1,6 @@
 <?php
 
-$domaine = 'http://localhost:8080/www/roums';
-$cdn_domaine = 'http://localhost:8080/www/roums/cdn';
-$cookies_domaine = '.localhost';
+$domaine = 'http://localhost:8080/www/roumsgroup';
+$cdn_domaine = 'http://localhost:8080/www/roumsgroup/cdn';
+$cookies_domaine = '.localhost:8080';
 
