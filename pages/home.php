@@ -8,26 +8,21 @@ include_once $layout.'/slider.php';
 
     <div class="quote-wrap">
         <div class="container">
-            <!--Row Start-->
             <div class="row">
                 <div class="col-lg-9">
-                    <h2>Looking for a quality constructor for your next project?</h2>
+                    <h2>Vous cherchez un constructeur de qualité pour votre prochain projet?</h2>
                 </div>
                 <div class="col-lg-3">
-                    <div class="quote-btn"><a href="qoute.html">get a Quote</a></div>
+                    <div class="quote-btn"><a href="#">Contactez-vous</a></div>
                 </div>
             </div>
-            <!--Row End-->
         </div>
     </div>
-    <!--Quote End-->
-
-    <!--About start-->
     <div class="about-wrap">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
-                    <h1>About <span>Our Company</span></h1>
+                    <h1>A propos de<span>Roums Group</span></h1>
                     <div class="aboutTxt">Curabitur congue egestas dapibus.</div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non libero consectetur, blandit mauris eget, imperdiet nisl. Etiam commodo ex nec erat tempor varius. Nunc rutrum pretium nunc in malesuada. Curabitur mollis urna ac sapien vulputate, ut congue sapien vehicula. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam et suscipit dui. Maecenas velit quam, mollis id erat eget, scelerisque elementum odio. Maecenas ac sagittis erat. Quisque hendrerit dapibus diam, a venenatis dui efficitur nec. Aenean tincidunt ullamcorper fermentum.</p>
                     <ul class="about-service">
@@ -45,13 +40,9 @@ include_once $layout.'/slider.php';
             </div>
         </div>
     </div>
-
-    <!--About start-->
-
-    <!--service start-->
     <div class="service-wrap">
         <div class="container">
-            <h1>Our <span>Service</span></h1>
+            <h1>Nos <span>Services</span></h1>
             <ul class="row serviceList">
                 <li class="col-lg-4 col-md-6">
                     <div class="service-image"><img src="<?=$cdn_domaine?>/images/feature-image-1.jpg" alt="">
@@ -92,12 +83,9 @@ include_once $layout.'/slider.php';
             </ul>
         </div>
     </div>
-    <!--service end-->
-
-    <!--porfolio start-->
     <div class="porfolio-wrap">
         <div class="container">
-            <h1>Latest <span>Project</span></h1>
+            <h1>Dernier  <span>Project</span></h1>
             <ul class="row portfolio-service">
                 <li class="col-lg-3 col-md-6">
                     <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio.jpg" alt="">
@@ -222,13 +210,11 @@ include_once $layout.'/slider.php';
             </ul>
         </div>
     </div>
-    <!--porfolio end-->
 
-    <!--Testimonials start-->
     <div class="testimonials-wrap">
         <div class="container">
             <div class="heading-wrap">
-                <h1>Testimonials</h1>
+                <h1>Témoignages</h1>
             </div>
             <ul class="owl-carousel testimonials">
                 <li class="item">
@@ -276,12 +262,10 @@ include_once $layout.'/slider.php';
             </ul>
         </div>
     </div>
-    <!--Testimonials end-->
 
-    <!--Team Start-->
     <div class="team_wrap">
         <div class="container">
-            <h1>OUR <span>EXPERTS</span></h1>
+            <h1>Nos <span>Expert</span></h1>
             <p>Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consec <br>
                 tetuer adipis elit, aliquam eget nibh etlibura.</p>
             <div class="row">

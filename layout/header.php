@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -13,9 +11,14 @@
     <link href="<?=$cdn_domaine?>/css/owl.carousel.css" rel="stylesheet">
     <link href="<?=$cdn_domaine?>/css/style.css" rel="stylesheet">
     <link href="<?=$cdn_domaine?>/plugins/css/settings.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
-
+    <style>
+        .quote-wrap h2 {
+            text-transform: inherit;
+        }
+        .text-right{
+          text-align: right;
+        }
+    </style>
 </head>
 <body>
 
@@ -28,22 +31,24 @@
                 <div class="top-text">We have more than 25 years of experiences</div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <ul class="topbar-links">
-                    <li><a href="login.html"><i class="fas fa-lock" aria-hidden="true"></i> LOGIN</a></li>
-                    <li><a href="register.html"><i class="fas fa-user" aria-hidden="true"></i> Register</a></li>
-                </ul>
+                <div class="social text-right">
+                    <a href="#." target="_blank">
+                        <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                    </a> <a href="#." target="_blank">
+                        <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                    </a> <a href="#." target="_blank"><i class="fab fa-google-plus-square" aria-hidden="true"></i>
+                    </a> <a href="#." target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#." target="_blank"><i class="fab fa-youtube-square" aria-hidden="true"></i></a>
+                </div>
             </div>
         </div>
-        <!-- Row End -->
+
     </div>
 </div>
-<!-- Top bar end -->
 
-<!-- Header start -->
 <div class="header">
     <div class="container">
 
-        <!-- Row Start -->
         <div class="row">
             <div class="col-lg-3">
                 <div class="navbar navbar-expand-lg bg-light">
@@ -57,7 +62,6 @@
             </div>
             <div class="col-lg-9">
                 <!--navegation-->
-
                 <div class="navigationwrape">
                     <nav class="navbar navbar-expand-lg"> <a class="navbar-brand" href="#">Navbar</a>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">

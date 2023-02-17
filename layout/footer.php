@@ -22,7 +22,15 @@
             <div class="col-lg-4 col-md-12 col-xs-12">
                 <div class="footer-logo"><a href="index-2.html"><img src="<?=$cdn_domaine?>/images/footer-logo.png" alt=""></a></div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam neque eget ipsum porta, sed convallis odio convallis... <a href="#">Read More</a> </p>
-                <div class="social"> <a href="#." target="_blank"> <i class="fab fa-facebook-square" aria-hidden="true"></i></a> <a href="#." target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i></a> <a href="#." target="_blank"><i class="fab fa-google-plus-square" aria-hidden="true"></i></a> <a href="#." target="_blank"><i class="fab fa-linkedin"></i></a> <a href="#." target="_blank"><i class="fab fa-youtube-square" aria-hidden="true"></i></a> </div>
+                <div class="social">
+                    <a href="#." target="_blank">
+                        <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                    </a> <a href="#." target="_blank">
+                        <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                    </a> <a href="#." target="_blank"><i class="fab fa-google-plus-square" aria-hidden="true"></i>
+                    </a> <a href="#." target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#." target="_blank"><i class="fab fa-youtube-square" aria-hidden="true"></i></a>
+                </div>
             </div>
             <div class="col-lg-2 col-md-4 col-xs-12">
                 <h3>Quick Links</h3>
