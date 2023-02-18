@@ -1,27 +1,13 @@
-<!--Team end-->
 
-<!--Newsletter start-->
-<div class="ct_newsletter_wrap">
-    <div class="container">
-        <div class="newletter_des">
-            <h5>Subscribe Our Weekly Newsletter</h5>
-            <form action="http://malikhassan.com/html/construction/register.html">
-                <label class="far fa-envelope"></label>
-                <input type="text" placeholder="Enter Your Email" class="form-control">
-                <button>Signup</button>
-            </form>
-        </div>
-    </div>
-</div>
-<!--Newsletter end-->
-
-<!--Footer start-->
 <div class="footer-wrap">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-12 col-xs-12">
-                <div class="footer-logo"><a href="index-2.html"><img src="<?=$cdn_domaine?>/images/footer-logo.png" alt=""></a></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam neque eget ipsum porta, sed convallis odio convallis... <a href="#">Read More</a> </p>
+                <div class="footer-logo">
+                    <a href="<?=$domaine?>"><img src="<?=$cdn_domaine?>/media/logo-blanc.png" alt=""></a>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam neque eget ipsum porta, sed convallis odio convallis...
+                    <a href="#">Lire la suite</a> </p>
                 <div class="social">
                     <a href="#." target="_blank">
                         <i class="fab fa-facebook-square" aria-hidden="true"></i>
@@ -33,43 +19,38 @@
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-xs-12">
-                <h3>Quick Links</h3>
+                <h3>Navigation</h3>
                 <ul class="footer-links">
-                    <li> <a href="#"> Home </a></li>
-                    <li> <a href="#"> About us</a></li>
-                    <li> <a href="#"> Service</a></li>
-                    <li> <a href="#"> Projects </a></li>
-                    <li> <a href="#"> Blog </a></li>
-                    <li> <a href="#"> Contact us </a></li>
+                    <li> <a href="#"> Presentation </a></li>
+                    <li> <a href="#"> Nos services</a></li>
+                    <li> <a href="#"> Projets réalisés</a></li>
+                    <li> <a href="#"> Contact-nous </a></li>
+                    <li> <a href="#"> Faq </a></li>
+                    <li> <a href="#"> Contact </a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-12">
                 <h3>Services</h3>
                 <ul class="footer-links">
-                    <li><a href="#">Project Management</a></li>
-                    <li><a href="#">Material Sourcing</a></li>
-                    <li><a href="#">Space Optimization</a></li>
-                    <li><a href="#">Construction &amp; installation </a></li>
+                    <li><a href="#">Construction rénovation</a></li>
+                    <li><a href="#">Import export</a></li>
+                    <li><a href="#">Fournitures et équipements</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-12">
-                <h3>Contact Info</h3>
-                <div class="footer-address">1234 Lorem Road, ISpum A Kennesaw, GA 1234</div>
-                <div class="call-us"> <a href="#">(777) 123-4567</a></div>
-                <div class="fax"> <a href="#">(777) 132-4567</a></div>
+                <h3>Contacts</h3>
+                <div class="footer-address">Angré Djibi Arcades 1</div>
+                <div class="call-us"> <a href="#">+225 07 68 49 59 97</a></div>
+                <div class="fax"> <a href="#">+225 00 00 00 00 00</a></div>
             </div>
         </div>
         <div class="footerWrp">
             <div class="row">
                 <div class="col-lg-6 col-md-7">
-                    <div class="copyright">© 2020 company name here | All Rights Reserved</div>
+                    <div class="copyright">Copyright © ROUMS GROUP 2023 </div>
                 </div>
-                <div class="col-lg-6 col-md-5">
-                    <ul class="foot footer-links">
-                        <li><a href="#">Sitemap</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Support</a></li>
-                    </ul>
+                <div class="col-lg-6 col-md-5 text-right">
+                   <p class="m-0">Designed and Developed by <a href="https://makompe.com/" target="_blank" style="text-decoration: none">Makompe Communication</a></p>
                 </div>
             </div>
         </div>
@@ -83,6 +64,8 @@
 <script src="<?=$cdn_domaine?>/plugins/js/jquery.themepunch.revolution.min.js"></script>
 <script src="<?=$cdn_domaine?>/js/owl.carousel.js"></script>
 <script src="<?=$cdn_domaine?>/js/script.js"></script>
+<script src="<?=$cdn_domaine?>/libs/sweetalert/sweetalert2.min.js" type="text/javascript"></script>
+<script src="<?=$cdn_domaine?>/libs/intltelinput/js/intlTelInput.min.js"></script>
 </body>
 </html>
 

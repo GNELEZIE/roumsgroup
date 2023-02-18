@@ -2,7 +2,23 @@
 $date = gmdate('Y-m-d H:i');
 // page active
 
+if(!function_exists('page_active')){
+    function page_active($page){
+        $urlSlug = trim(utf8_decode(trim(substr($_SERVER["REQUEST_URI"], strlen(dirname($_SERVER["SCRIPT_NAME"]))))), "/");
+        $d = explode('/',$urlSlug);
+        $i = $d[0];
+        if(isset($_GET)){
+            $g = explode('?',$i);
+            $i = $g[0];
+        }
+        if($page == $i){
+            return 'active';
+        }else{
+            return '';
+        }
 
+    }
+}
 if(!function_exists('getIp')){
     function getIp(){
         if(!empty($_SERVER['HTTP_CLIENT_IP'])){
