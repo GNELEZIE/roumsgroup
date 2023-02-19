@@ -64,8 +64,22 @@
 <script src="<?=$cdn_domaine?>/plugins/js/jquery.themepunch.revolution.min.js"></script>
 <script src="<?=$cdn_domaine?>/js/owl.carousel.js"></script>
 <script src="<?=$cdn_domaine?>/js/script.js"></script>
-<script src="<?=$cdn_domaine?>/libs/sweetalert/sweetalert2.min.js" type="text/javascript"></script>
+<script src="<?=$cdn_domaine?>/libs/sweetalert/sweetalert2.min.js"></script>
 <script src="<?=$cdn_domaine?>/libs/intltelinput/js/intlTelInput.min.js"></script>
+<script src="<?=$cdn_domaine?>/libs/wow/wow.js"></script>
+<script>
+    wow = new WOW(
+        {
+            animateClass: 'animated',
+            offset:       100,
+            callback:     function(box) {
+                console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+            }
+        }
+    );
+    wow.init();
+
+</script>
 </body>
 </html>
 

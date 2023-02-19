@@ -11,8 +11,9 @@
     <link href="<?=$cdn_domaine?>/css/owl.carousel.css" rel="stylesheet">
     <link href="<?=$cdn_domaine?>/css/style.css" rel="stylesheet">
     <link href="<?=$cdn_domaine?>/plugins/css/settings.css" rel="stylesheet">
-    <link rel="stylesheet" href="<?=$cdn_domaine?>/libs/sweetalert/sweetalert.css" type="text/css">
-    <link rel="stylesheet" href="<?=$cdn_domaine?>/libs/intltelinput/css/intlTelInput.min.css"/>
+    <link href="<?=$cdn_domaine?>/libs/sweetalert/sweetalert.css" rel="stylesheet" type="text/css">
+    <link href="<?=$cdn_domaine?>/libs/intltelinput/css/intlTelInput.min.css" rel="stylesheet"/>
+    <link type="text/css" href="<?=$cdn_domaine?>/libs/wow/animate.css" rel="stylesheet"/>
     <style>
         .quote-wrap h2 {
             text-transform: inherit;
@@ -113,6 +114,22 @@
         .pagi-icon{
 
         }
+        .icon-paginate{
+            background: #0000007a;
+            font-size: 27px;
+            padding: 5px 12px;
+            border-radius: 50px;
+            color: #fff;
+        }
+        .icon-paginate:hover{
+            background: #000;
+        }
+.myCall{
+    background: #fff;
+    color: #000;
+    padding: 5px;
+    border-radius: 6px;
+}
 
 
 
@@ -155,7 +172,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="d-flex">
                     <a href="tel:002250768495997" class="callIcom">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <i class="fa fa-phone myCall" aria-hidden="true"></i>
                     </a>
                     <a href="tel:002250768495997" class="pl-3 callIa">
                         +225 07 68 49 59 97

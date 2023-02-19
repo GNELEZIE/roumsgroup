@@ -51,7 +51,7 @@ require_once $layout.'/header.php';
                                         <input name="email" type="text" id="email" placeholder="Email">
                                     </div>
                                     <div class="col-lg-12">
-                                        <textarea rows="4" name="message" id="message" placeholder="Message"></textarea>
+                                        <textarea name="msg" id="msg" rows="5" placeholder="Message"></textarea>
                                     </div>
                                     <div class="col-lg-12">
                                         <input type="hidden" class="form-control" name="formkey" value="<?=$token?>">
@@ -97,7 +97,7 @@ require_once $layout.'/footer.php';
         var contactform = $('#contactform');
         contactform.submit(function(e){
             e.preventDefault();
-            $('.loarder').html('<i class="fas fa-circle-notch fa-spin"></i>');
+            $('.loarder').html('<i class="fas fa-circle-notch fa-spin pagi-icon"></i>');
             var value = document.getElementById('contactform');
             var form = new FormData(value);
 
@@ -113,6 +113,11 @@ require_once $layout.'/footer.php';
                     if(data == "ok"){
                         swal("Votre message a été envoyé avec succès !!!","", "success");
                         $('.loarder').html('');
+                        $('#phone').val('');
+                        $('#msg').val('');
+                        $('#email').val('');
+                        $('#nom').val('');
+
                     }else if(data == "1"){
                         $('.loarder').html('');
                         swal("Action Impossible !", " Votre adresse email n\'est pas correct", "error");
