@@ -80,12 +80,11 @@ if(!function_exists('sendMailToMe')){
             $mail->SMTPDebug = 0;
             $mail->setFrom($from, $fromName);
             $mail->addReplyTo($from, $fromName);
-            $mail->addAddress('support@ivoirebox.com', 'Ivoire Box');
+            $mail->addAddress('support@roumsgroup.com', 'Roums Group');
 
             $mail->isHTML(true);
             $mail->Subject = $subject;
             $mail->Body    = $message;
-
             $mail->send();
            return 'send';
         } catch (Exception $e) {

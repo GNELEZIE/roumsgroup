@@ -49,7 +49,7 @@
                 <div class="col-lg-6 col-md-7">
                     <div class="copyright">Copyright © ROUMS GROUP 2023 </div>
                 </div>
-                <div class="col-lg-6 col-md-5 text-right">
+                <div class="col-lg-6 col-md-5 w100 text-rights">
                    <p class="m-0">Designed and Developed by <a href="https://makompe.com/" target="_blank" style="text-decoration: none">Makompe Communication</a></p>
                 </div>
             </div>

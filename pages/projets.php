@@ -19,7 +19,7 @@ require_once $layout.'/header.php';
         <h1>Dernier  <span>Project</span></h1>
         <ul class="row portfolio-service">
             <li class="col-lg-3 col-md-6">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio.jpg" alt="">
+                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio.jpg" alt="">
                     <div class="portfolio-overley">
                         <div class="content">
                             <h3><a href="#">Interior Design</a></h3>
@@ -29,7 +29,7 @@ require_once $layout.'/header.php';
                 </div>
             </li>
             <li class="col-lg-3 col-md-6">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio2.jpg" alt="">
+                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio2.jpg" alt="">
                     <div class="portfolio-overley">
                         <div class="content">
                             <h3><a href="#">Home</a></h3>
@@ -39,7 +39,7 @@ require_once $layout.'/header.php';
                 </div>
             </li>
             <li class="col-lg-3 col-md-6">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio3.jpg" alt="">
+                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio3.jpg" alt="">
                     <div class="portfolio-overley">
                         <div class="content">
                             <h3><a href="#">Green House</a></h3>
@@ -49,7 +49,7 @@ require_once $layout.'/header.php';
                 </div>
             </li>
             <li class="col-lg-3 col-md-6">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio4.jpg" alt="">
+                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio4.jpg" alt="">
                     <div class="portfolio-overley">
                         <div class="content">
                             <h3><a href="#">Home</a></h3>

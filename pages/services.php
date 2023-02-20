@@ -16,9 +16,9 @@ require_once $layout.'/header.php';
     </div>
 <div class="service-wrap">
     <div class="container">
-        <h1> <span>Services</span></h1>
+        <h1 class="wow slideInLeft"> <span>Services</span></h1>
         <ul class="row serviceList">
-            <li class="col-lg-4 col-md-6">
+            <li class="col-lg-4 col-md-6 wow slideInRight">
                 <div class="service-image"><img src="<?=$cdn_domaine?>/media/constr.jpg" alt="">
                     <div class="hoverlink">
                         <div class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></div>
@@ -27,10 +27,10 @@ require_once $layout.'/header.php';
                 <div class="service-details">
                     <h3><a href="#">Construction rénovation</a></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu faucibus.</p>
-                    <div class="readmore"><a href="#">En savoir plus</a></div>
+                    <div class="readmore"><a href="<?=$domaine?>/construction">En savoir plus</a></div>
                 </div>
             </li>
-            <li class="col-lg-4 col-md-6">
+            <li class="col-lg-4 col-md-6 wow slideInRight">
                 <div class="service-image"><img src="<?=$cdn_domaine?>/media/ie.jpg" alt="">
                     <div class="hoverlink">
                         <div class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></div>
@@ -39,10 +39,10 @@ require_once $layout.'/header.php';
                 <div class="service-details">
                     <h3><a href="#">Import export</a></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu faucibus.</p>
-                    <div class="readmore"><a href="#">En savoir plu</a></div>
+                    <div class="readmore"><a href="<?=$domaine?>/import-export">En savoir plu</a></div>
                 </div>
             </li>
-            <li class="col-lg-4 col-md-6">
+            <li class="col-lg-4 col-md-6 wow slideInRight">
                 <div class="service-image"><img src="<?=$cdn_domaine?>/media/equ.jpg" alt="">
                     <div class="hoverlink">
                         <div class="icon"><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></div>
@@ -51,7 +51,7 @@ require_once $layout.'/header.php';
                 <div class="service-details">
                     <h3><a href="#">Fournitures et équipements</a></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu faucibus.</p>
-                    <div class="readmore"><a href="#">En savoir plu</a></div>
+                    <div class="readmore"><a href="<?=$domaine?>/fournitures-et-equipements">En savoir plu</a></div>
                 </div>
             </li>
         </ul>

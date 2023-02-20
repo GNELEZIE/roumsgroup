@@ -31,7 +31,7 @@ include_once $layout.'/slider.php';
                 <div class="readmore wow slideInRight"><a href="<?=$domaine?>/a-propos">En savoir plus</a></div>
             </div>
             <div class="col-lg-5">
-                <div class="about-image wow slideInRight"><img src="<?=$cdn_domaine?>/images/about-jhoss.jpg" alt=""></div>
+                <div class="about-image wow slideInRight"><img src="<?=$cdn_domaine?>/media/about-jhoss.jpg" alt=""></div>
             </div>
         </div>
     </div>
@@ -84,7 +84,7 @@ include_once $layout.'/slider.php';
         <h1 class="wow slideInRight">Dernier  <span>Project</span></h1>
         <ul class="row portfolio-service">
             <li class="col-lg-3 col-md-6 wow slideInLeft">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio.jpg" alt="">
+                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio.jpg" alt="">
                     <div class="portfolio-overley">
                         <div class="content">
                             <h3><a href="#">Interior Design</a></h3>
@@ -94,7 +94,7 @@ include_once $layout.'/slider.php';
                 </div>
             </li>
             <li class="col-lg-3 col-md-6 wow slideInLeft">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio2.jpg" alt="">
+                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio2.jpg" alt="">
                     <div class="portfolio-overley">
                         <div class="content">
                             <h3><a href="#">Home</a></h3>
@@ -104,7 +104,7 @@ include_once $layout.'/slider.php';
                 </div>
             </li>
             <li class="col-lg-3 col-md-6 wow slideInLeft">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio3.jpg" alt="">
+                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio3.jpg" alt="">
                     <div class="portfolio-overley">
                         <div class="content">
                             <h3><a href="#">Green House</a></h3>
@@ -114,7 +114,7 @@ include_once $layout.'/slider.php';
                 </div>
             </li>
             <li class="col-lg-3 col-md-6 wow slideInLeft">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio4.jpg" alt="">
+                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio4.jpg" alt="">
                     <div class="portfolio-overley">
                         <div class="content">
                             <h3><a href="#">Home</a></h3>
@@ -124,7 +124,7 @@ include_once $layout.'/slider.php';
                 </div>
             </li>
             <li class="col-lg-3 col-md-6 wow slideInLeft">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio5.jpg" alt="">
+                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio5.jpg" alt="">
                     <div class="portfolio-overley">
                         <div class="content">
                             <h3><a href="#">Interior Design</a></h3>
@@ -134,7 +134,7 @@ include_once $layout.'/slider.php';
                 </div>
             </li>
             <li class="col-lg-3 col-md-6 wow slideInLeft">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio6.jpg" alt="">
+                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio6.jpg" alt="">
                     <div class="portfolio-overley">
                         <div class="content">
                             <h3><a href="#">Home</a></h3>
@@ -143,8 +143,9 @@ include_once $layout.'/slider.php';
                     </div>
                 </div>
             </li>
-            <li class="col-lg-3 col-md-6">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio7.jpg" alt="">
+
+            <li class="col-lg-3 col-md-6 wow slideInLeft">
+                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio12.jpg" alt="">
                     <div class="portfolio-overley">
                         <div class="content">
                             <h3><a href="#">Home</a></h3>
@@ -153,48 +154,8 @@ include_once $layout.'/slider.php';
                     </div>
                 </div>
             </li>
-            <li class="col-lg-3 col-md-6">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio8.jpg" alt="">
-                    <div class="portfolio-overley">
-                        <div class="content">
-                            <h3><a href="#">Home</a></h3>
-                            <div class="portfolio-tags"> <span>Builder</span>, <span>Repairman</span> </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="col-lg-3 col-md-6">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio9.jpg" alt="">
-                    <div class="portfolio-overley">
-                        <div class="content">
-                            <h3><a href="#">Home</a></h3>
-                            <div class="portfolio-tags"> <span>Builder</span>, <span>Repairman</span> </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="col-lg-3 col-md-6">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio10.jpg" alt="">
-                    <div class="portfolio-overley">
-                        <div class="content">
-                            <h3><a href="#">Interior Design</a></h3>
-                            <div class="portfolio-tags"> <span>Builder</span>, <span>Repairman</span> </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="col-lg-3 col-md-6">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio11.jpg" alt="">
-                    <div class="portfolio-overley">
-                        <div class="content">
-                            <h3><a href="#">Home</a></h3>
-                            <div class="portfolio-tags"> <span>Builder</span>, <span>Repairman</span> </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="col-lg-3 col-md-6">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/images/portfolio12.jpg" alt="">
+            <li class="col-lg-3 col-md-6 wow slideInLeft">
+                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio10.jpg" alt="">
                     <div class="portfolio-overley">
                         <div class="content">
                             <h3><a href="#">Home</a></h3>
@@ -267,7 +228,7 @@ include_once $layout.'/slider.php';
         <div class="row">
             <div class="col-lg-3 col-md-6">
                 <div class="team wow slideInLeft">
-                    <div class="team-image"> <img src="<?=$cdn_domaine?>/images/team01.png" alt="">
+                    <div class="team-image"> <img src="<?=$cdn_domaine?>/media/team01.png" alt="">
                         <div class="team-info">
                             <h5><a href="#">STEVE JOBS</a></h5>
                             <span>Supervisor</span>
@@ -283,7 +244,7 @@ include_once $layout.'/slider.php';
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team wow slideInLeft">
-                    <div class="team-image"> <img src="<?=$cdn_domaine?>/images/team02.png" alt="">
+                    <div class="team-image"> <img src="<?=$cdn_domaine?>/media/team02.png" alt="">
                         <div class="team-info">
                             <h5><a href="#">Alex Cameron</a></h5>
                             <span>Supervisor</span>
@@ -299,7 +260,7 @@ include_once $layout.'/slider.php';
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team wow slideInLeft">
-                    <div class="team-image"> <img src="<?=$cdn_domaine?>/images/team03.png" alt="">
+                    <div class="team-image"> <img src="<?=$cdn_domaine?>/media/team03.png" alt="">
                         <div class="team-info">
                             <h5><a href="#">Jack Peterson</a></h5>
                             <span>Supervisor</span>
@@ -315,7 +276,7 @@ include_once $layout.'/slider.php';
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team wow slideInLeft">
-                    <div class="team-image"> <img src="<?=$cdn_domaine?>/images/team04.png" alt="">
+                    <div class="team-image"> <img src="<?=$cdn_domaine?>/media/team04.png" alt="">
                         <div class="team-info">
                             <h5><a href="#">Adam Lewis</a></h5>
                             <span>Supervisor</span>

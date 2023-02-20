@@ -2,7 +2,7 @@
     <div class="tp-banner" >
         <ul>
             <li data-slotamount="7" data-transition="incude" data-masterspeed="1000" data-saveperformance="on">
-                <img alt="" src="<?=$cdn_domaine?>/images/dummy.png" data-lazyload="<?=$cdn_domaine?>/images/banner1.jpg">
+                <img alt="" src="<?=$cdn_domaine?>/media/dummy.png" data-lazyload="<?=$cdn_domaine?>/media/banner1.jpg">
                 <div class="caption lft large-title tp-resizeme slidertext1" data-x="left" data-y="210" data-speed="600" data-start="2200">
                     <span>Roums Group</span></div>
                 <div class="caption lfb large-title tp-resizeme slidertext2" data-x="left" data-y="310" data-speed="600" data-start="2800">
@@ -12,7 +12,7 @@
                     <a href="#">Contactez-nous</a></div>
             </li>
             <li data-slotamount="7" data-transition="3dcurtain-vertical" data-masterspeed="1000" data-saveperformance="on">
-                <img alt="" src="<?=$cdn_domaine?>/images/dummy.png" data-lazyload="<?=$cdn_domaine?>/images/banner2.jpg">
+                <img alt="" src="<?=$cdn_domaine?>/media/dummy.png" data-lazyload="<?=$cdn_domaine?>/media/banner2.jpg">
                 <div class="caption lfl large-title tp-resizeme slidertext1 slidertext5" data-x="center" data-y="210" data-speed="600" data-start="2200">
                     <span>Construction</span></div>
                 <div class="caption lfb large-title tp-resizeme slidertext4 slidertext6" data-x="center" data-y="310" data-speed="600" data-start="2800">

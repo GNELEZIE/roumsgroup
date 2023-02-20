@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Construction</title>
+    <title>Roums Group</title>
     <link rel="shortcut icon" href="<?=$cdn_domaine?>/media/favicon.ico">
     <link href="<?=$cdn_domaine?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?=$cdn_domaine?>/css/all.css" rel="stylesheet">
@@ -20,7 +20,7 @@
             font-size: 21px;
         }
         .text-right{
-          text-align: right;
+            text-align: right;
         }
         .callIcom{
             padding-right: 10px;
@@ -124,18 +124,33 @@
         .icon-paginate:hover{
             background: #000;
         }
-.myCall{
-    background: #fff;
-    color: #000;
-    padding: 5px;
-    border-radius: 6px;
-}
+        .myCall{
+            background: #fff;
+            color: #000;
+            padding: 5px;
+            border-radius: 6px;
+        }
+        .footer-wrap {
+            background: url(<?=$cdn_domaine?>/media/footer-bg.jpg) no-repeat;
+            background-size: cover;
+            padding: 44px 0 15px 0;
+        }
 
+        .testimonials-wrap {
+            background: url(<?=$cdn_domaine?>/media/testimonial-bg.jpg) no-repeat;
+            padding: 50px 0;
+            background-size: cover;
+            margin-top: 50px;
+        }
+        .inner-heading {
+            background: url(<?=$cdn_domaine?>/media/inner-heading-bg.jpg) no-repeat;
+            background-size: cover;
+            padding: 70px 0;
+        }
 
-
-
-
-
+        .text-rights{
+            text-align: right !important;
+        }
 
 
 
@@ -154,6 +169,19 @@
                 width: 100% !important;
             }
 
+            .w60{
+                width: 60% !important;
+            }
+            .w50{
+                width: 50% !important;
+            }
+            .w40{
+                width: 40% !important;
+            }
+            .text-rights{
+                text-align: center !important;
+            }
+
 
 
         }
@@ -169,7 +197,7 @@
 <div class="top-bar">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-6 w60">
                 <div class="d-flex">
                     <a href="tel:002250768495997" class="callIcom">
                         <i class="fa fa-phone myCall" aria-hidden="true"></i>
@@ -177,9 +205,9 @@
                     <a href="tel:002250768495997" class="pl-3 callIa">
                         +225 07 68 49 59 97
                     </a>
-                </div>
+                </div>&
             </div>
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-6 w40">
                 <div class="social text-right">
                     <a href="#" target="_blank">
                         <i class="fab fa-facebook-square" aria-hidden="true"></i>
@@ -187,10 +215,7 @@
                     <a href="#" target="_blank">
                         <i class="fab fa-twitter-square" aria-hidden="true"></i>
                     </a>
-                    <a href="#" target="_blank"><i class="fab fa-google-plus-square" aria-hidden="true"></i>
-                    </a>
                     <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-youtube-square" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>

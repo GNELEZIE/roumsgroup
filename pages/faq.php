@@ -43,7 +43,7 @@ require_once $layout.'/header.php';
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="worker-image"><img src="<?=$cdn_domaine?>/images/worker-1.jpg" alt=""></div>
+                <div class="worker-image"><img src="<?=$cdn_domaine?>/media/worker-1.jpg" alt=""></div>
             </div>
         </div>
     </div>

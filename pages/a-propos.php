@@ -28,7 +28,7 @@ require_once $layout.'/header.php';
                 </ul>
             </div>
             <div class="col-lg-5">
-                <div class="about-image"><img src="<?=$cdn_domaine?>/images/about-jhoss.jpg" alt=""></div>
+                <div class="about-image"><img src="<?=$cdn_domaine?>/media/about-jhoss.jpg" alt=""></div>
             </div>
         </div>
     </div>
@@ -41,7 +41,7 @@ require_once $layout.'/header.php';
         <div class="row">
             <div class="col-lg-3 col-md-6">
                 <div class="team">
-                    <div class="team-image"> <img src="<?=$cdn_domaine?>/images/team01.png" alt="">
+                    <div class="team-image"> <img src="<?=$cdn_domaine?>/media/team01.png" alt="">
                         <div class="team-info">
                             <h5><a href="#">STEVE JOBS</a></h5>
                             <span>Supervisor</span>
@@ -57,7 +57,7 @@ require_once $layout.'/header.php';
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team">
-                    <div class="team-image"> <img src="<?=$cdn_domaine?>/images/team02.png" alt="">
+                    <div class="team-image"> <img src="<?=$cdn_domaine?>/media/team02.png" alt="">
                         <div class="team-info">
                             <h5><a href="#">Alex Cameron</a></h5>
                             <span>Supervisor</span>
@@ -73,7 +73,7 @@ require_once $layout.'/header.php';
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team">
-                    <div class="team-image"> <img src="<?=$cdn_domaine?>/images/team03.png" alt="">
+                    <div class="team-image"> <img src="<?=$cdn_domaine?>/media/team03.png" alt="">
                         <div class="team-info">
                             <h5><a href="#">Jack Peterson</a></h5>
                             <span>Supervisor</span>
@@ -89,7 +89,7 @@ require_once $layout.'/header.php';
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team">
-                    <div class="team-image"> <img src="<?=$cdn_domaine?>/images/team04.png" alt="">
+                    <div class="team-image"> <img src="<?=$cdn_domaine?>/media/team04.png" alt="">
                         <div class="team-info">
                             <h5><a href="#">Adam Lewis</a></h5>
                             <span>Supervisor</span>

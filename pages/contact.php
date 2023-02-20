@@ -83,7 +83,7 @@ require_once $layout.'/header.php';
                     </div>
                 </div>
             </div>
-            <div class="map text-center">
+            <div class="map text-center pt-5">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.0493925295073!2d-3.9801463857256865!3d5.409448536611582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc193657f0df6b3%3A0xf553c593acfe0e20!2sLes%20Arcades%201!5e0!3m2!1sfr!2sci!4v1676716624701!5m2!1sfr!2sci" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>

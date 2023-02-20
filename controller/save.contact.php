@@ -16,8 +16,8 @@ if(isset($_POST['nom']) and isset($_POST['email']) and isset($_POST['msg']) and 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         echo '1';
     }else{
-        $subject = trim('Nouveau message');
-//        sendMailToMe($email,$nom,$sujet,$messages);
+        $sujet = trim('Nouveau message');
+        sendMailToMe($email,$nom,$sujet,$messages);
         echo 'ok';
 
     }
