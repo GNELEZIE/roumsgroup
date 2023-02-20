@@ -151,6 +151,12 @@
         .text-rights{
             text-align: right !important;
         }
+        .mylogo{
+            width: 130px !important;
+        }
+        .social {
+            margin-bottom: 0 !important;
+        }
 
 
 
@@ -205,7 +211,7 @@
                     <a href="tel:002250768495997" class="pl-3 callIa">
                         +225 07 68 49 59 97
                     </a>
-                </div>&
+                </div>
             </div>
             <div class="col-lg-6 col-md-6 w40">
                 <div class="social text-right">
@@ -229,7 +235,7 @@
             <div class="col-lg-3">
                 <div class="navbar navbar-expand-lg bg-light">
                     <div class="logo">
-                        <a href="<?=$domaine?>"><img src="<?=$cdn_domaine?>/media/logo.png" alt=""></a>
+                        <a href="<?=$domaine?>"><img src="<?=$cdn_domaine?>/media/logos.png" class="mylogo" alt=""></a>
                     </div>
                     <div class="navbar-header">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
