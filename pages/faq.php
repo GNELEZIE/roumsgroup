@@ -17,7 +17,7 @@ require_once $layout.'/header.php';
 <div class="inner-content faqs">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 pull-right">
+            <div class="col-lg-8 offset-2 py-3">
                 <h1><span>Questions fréquemment posées</span></h1>
                 <div class="faqs">
                     <div class="collaps">
@@ -41,9 +41,6 @@ require_once $layout.'/header.php';
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="worker-image"><img src="<?=$cdn_domaine?>/media/worker-1.jpg" alt=""></div>
             </div>
         </div>
     </div>

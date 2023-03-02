@@ -15,11 +15,11 @@ require_once $layout.'/header.php';
         <div class="row">
             <div class="col-lg-7">
                 <h1>Qui sommes <span>nous ?</span></h1>
-                <div class="aboutTxt">Curabitur congue egestas dapibus.</div>
+                <div class="aboutTxt">Services à travers le monde ?</div>
                 <div class="clearfix"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non libero consectetur, blandit mauris eget, imperdiet nisl. Etiam commodo ex nec erat tempor varius. Nunc rutrum pretium nunc in malesuada. Curabitur mollis urna ac sapien vulputate, ut congue sapien vehicula. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam et suscipit dui. Maecenas velit quam, mollis id erat eget, scelerisque elementum odio. Maecenas ac sagittis erat. Quisque hendrerit dapibus diam, a venenatis dui efficitur nec. Aenean tincidunt ullamcorper fermentum. <br/>
-                    <br/>
-                    Sed et vulputate orci. Nulla rhoncus tristique ipsum vitae gravida. Curabitur et dapibus dolor, sit amet vulputate nibh. Sed eget lorem at est consequat pulvinar et ut lacus. Integer vel nibh ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse viverra nibh dolor, at pharetra tortor vestibulum non. Proin a ipsum eros. Curabitur hendrerit, enim vel commodo iaculis, massa felis accumsan ligula, ac dignissim tortor mi ac lectus. </p>
+                <p>
+                    La genèse de votre entreprise est basée sur un objectif commun: fournir des services et des produits de qualité à des clients du monde entier. Notre équipe a créé une plateforme qui permet à nos clients de bénéficier d'un service à la demande qui répond à leurs besoins spécifiques, qu'il s'agisse de bâtiments, de travaux publics, d'importations, d'exportations, de fournitures ou d'équipements. Nous avons recours à des technologies modernes pour offrir des services à la demande, tels que des systèmes de gestion de la qualité et des systèmes de traçabilité. Nous faisons également appel à des méthodes de surveillance et de contrôle de qualité rigoureuses pour maintenir des normes élevées. Nous nous efforçons également de développer des partenariats avec des fournisseurs
+                </p>
                 <ul class="about-service">
                     <li>Lorem ipsum dolor sit amet consectetur</li>
                     <li>Lorem ipsum dolor sit amet consectetur</li>
@@ -28,7 +28,7 @@ require_once $layout.'/header.php';
                 </ul>
             </div>
             <div class="col-lg-5">
-                <div class="about-image"><img src="<?=$cdn_domaine?>/media/about-jhoss.jpg" alt=""></div>
+                <div class="about-image"><img src="<?=$cdn_domaine?>/media/empl02.jpg" class="cover375" alt="empl02"></div>
             </div>
         </div>
     </div>

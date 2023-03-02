@@ -157,6 +157,10 @@
         .social {
             margin-bottom: 0 !important;
         }
+        .cover375{
+            object-fit: cover;
+            height: 376px;
+        }
 
 
 
@@ -187,7 +191,9 @@
             .text-rights{
                 text-align: center !important;
             }
-
+            .offset-2 {
+                margin-left: 0 !important;
+            }
 
 
         }

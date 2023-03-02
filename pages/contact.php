@@ -157,6 +157,5 @@ require_once $layout.'/footer.php';
             $('#isoPhone').val(countryData["iso2"]);
             $('#dialPhone').val(countryData["dialCode"]);
         });
-
     });
 </script>
