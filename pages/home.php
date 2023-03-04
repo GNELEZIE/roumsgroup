@@ -50,7 +50,7 @@ include_once $layout.'/slider.php';
                 </div>
                 <div class="service-details">
                     <h3><a href="#">Construction rénovation</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu faucibus.</p>
+                    <p>Votre partenaire de confiance en matière de construction et rénovation.</p>
                     <div class="readmore"><a href="<?=$domaine?>/construction">En savoir plus</a></div>
                 </div>
             </li>
