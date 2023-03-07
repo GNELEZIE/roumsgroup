@@ -161,7 +161,20 @@
             object-fit: cover;
             height: 376px;
         }
-
+        .text-justify{
+            text-align: justify !important;
+        }
+        .cover200{
+            object-fit: cover;
+            height: 200px;
+            width: 100% !important;
+        }
+        .porfolio-wrap .content h3 a {
+            font-size: 17px !important;
+        }
+        .portfolio-tags{
+            font-size: 15px !important;
+        }
 
 
 
@@ -261,7 +274,6 @@
                                 <li> <a href="<?=$domaine?>/services"  class="<?=page_active('services')?>"> Services </a></li>
                                 <li> <a href="<?=$domaine?>/projets"  class="<?=page_active('projets')?>"> Projets réalisés </a></li>
                                 <li> <a href="<?=$domaine?>/contact"  class="<?=page_active('contact')?>"> Contact </a></li>
-                                <li> <a href="<?=$domaine?>/faq"  class="<?=page_active('faq')?>"> Faq </a></li>
                             </ul>
                         </div>
                     </nav>

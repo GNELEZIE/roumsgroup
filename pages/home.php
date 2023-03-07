@@ -26,9 +26,9 @@ include_once $layout.'/slider.php';
         <div class="row">
             <div class="col-lg-7">
                 <h1 class="wow slideInLeft">A propos </h1>
-                <div class="aboutTxt wow slideInLeft">Services à travers le monde ?</div>
+                <div class="aboutTxt wow slideInLeft">Services à travers le monde </div>
                 <p class="wow slideInLeft">
-                    La genèse de votre entreprise est basée sur un objectif commun: fournir des services et des produits de qualité à des clients du monde entier. Notre équipe a créé une plateforme qui permet à nos clients de bénéficier d'un service à la demande qui répond à leurs besoins spécifiques, qu'il s'agisse de bâtiments, de travaux publics, d'importations, d'exportations, de fournitures ou d'équipements. Nous avons recours à des technologies modernes pour offrir des services à la demande, tels que des systèmes de gestion de la qualité et des systèmes de traçabilité. Nous faisons également appel à des méthodes de surveillance et de contrôle de qualité rigoureuses pour maintenir des normes élevées. Nous nous efforçons également de développer des partenariats avec des fournisseurs
+                    Roums group, dont le siège social est basé à Abidjan en Côte d'Ivoire se donne pour mission principale de fournir des services de haut standing et des produits de qualité à des clients du monde entier. Notre équipe a créé une plateforme qui permet à nos clients de bénéficier d'un service à la demande qui répond à leurs besoins spécifiques, qu'il s'agisse de bâtiments, de travaux publics, d'importations, d'exportations, de fournitures ou d'équipements. Nous avons recours à des technologies modernes pour offrir des services à la demande, tels que des systèmes de gestion de la qualité et des systèmes de traçabilité. Nous faisons également appel à des méthodes de surveillance et de contrôle de qualité rigoureuses pour maintenir des normes élevées. Nous nous efforçons également de développer des partenariats avec des fournisseurs
                 </p>
                 <div class="readmore wow slideInRight"><a href="<?=$domaine?>/a-propos">En savoir plus</a></div>
             </div>
@@ -62,7 +62,7 @@ include_once $layout.'/slider.php';
                 </div>
                 <div class="service-details">
                     <h3><a href="#">Import export</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu faucibus.</p>
+                    <p>Nous travaillons avec les meilleurs fournisseurs et les transporteurs.</p>
                     <div class="readmore"><a href="<?=$domaine?>/import-export">En savoir plu</a></div>
                 </div>
             </li>
@@ -74,7 +74,7 @@ include_once $layout.'/slider.php';
                 </div>
                 <div class="service-details">
                     <h3><a href="#">Fournitures et équipements</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu faucibus.</p>
+                    <p>Nous nous engageons à fournir des produits de haute qualité.</p>
                     <div class="readmore"><a href="<?=$domaine?>/fournitures-et-equipements">En savoir plu</a></div>
                 </div>
             </li>
@@ -178,43 +178,39 @@ include_once $layout.'/slider.php';
         <ul class="owl-carousel testimonials wow slideInRight">
             <li class="item">
                 <div class="testi-info">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at egestas diam. Phasellus eget tortor tellus. Aliquam erat volutpat. Nunc sed arcu malesuada, viverra justo bibendum, sagittis ipsum. Quisque in ornare dui, id scelerisque eros. </p>
-                    <div class="name">John Doe <span>Lorem Ispum</span></div>
+                    <p>Je suis ravi de partager mon expérience positive avec ROUMS GROUP pour la rénovation de ma maison. Je suis un client satisfait et je recommande vivement cette entreprise à quiconque cherche à rénover sa maison.</p>
+                    <div class="name">KONAN Kouamé Hervé</div>
                     <div class="client-image"><img src="<?=$cdn_domaine?>/media/user.png" alt=""></div>
                 </div>
             </li>
             <li class="item">
                 <div class="testi-info">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at egestas diam. Phasellus eget tortor tellus. Aliquam erat volutpat. Nunc sed arcu malesuada, viverra justo bibendum, sagittis ipsum. Quisque in ornare dui, id scelerisque eros. </p>
-                    <div class="name">John Doe <span>Lorem Ispum</span></div>
+                    <p>
+                        L'équipe de ROUMS GROUP a été très professionnelle et a travaillé en étroite collaboration avec moi pour
+                        comprendre mes besoins et mes attentes en matière de rénovation. Ils ont fourni des conseils judicieux pour répondre à toutes mes demandes.
+                    </p>
+                    <div class="name">TOGBA Blaise</div>
                     <div class="client-image"><img src="<?=$cdn_domaine?>/media/user.png" alt=""></div>
                 </div>
             </li>
             <li class="item">
                 <div class="testi-info">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at egestas diam. Phasellus eget tortor tellus. Aliquam erat volutpat. Nunc sed arcu malesuada, viverra justo bibendum, sagittis ipsum. Quisque in ornare dui, id scelerisque eros. </p>
-                    <div class="name">John Doe <span>Lorem Ispum</span></div>
+                    <p>Je suis très satisfait du résultat final de leur service d'import-export. Tout a été fait selon mes spécifications et je suis très satisfait du travail accompli par ROUMS GROUP. Merci ROUMS GROUP pour votre excellent travail!</p>
+                    <div class="name">FOFANA Aly</div>
                     <div class="client-image"><img src="<?=$cdn_domaine?>/media/user.png" alt=""></div>
                 </div>
             </li>
             <li class="item">
                 <div class="testi-info">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at egestas diam. Phasellus eget tortor tellus. Aliquam erat volutpat. Nunc sed arcu malesuada, viverra justo bibendum, sagittis ipsum. Quisque in ornare dui, id scelerisque eros. </p>
-                    <div class="name">John Doe <span>Lorem Ispum</span></div>
+                    <p>Leur service a été exceptionnel, de la préparation des documents à la livraison des marchandises. La qualité de leur travail est incomparable et leur attention aux détails est vraiment remarquable. Ils ont respecté les délais impartis et ont travaillé avec diligence pour s'assurer que tout était livré en temps et en heure.</p>
+                    <div class="name">Diallo Maimouna</div>
                     <div class="client-image"><img src="<?=$cdn_domaine?>/media/user.png" alt=""></div>
                 </div>
             </li>
             <li class="item">
                 <div class="testi-info">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at egestas diam. Phasellus eget tortor tellus. Aliquam erat volutpat. Nunc sed arcu malesuada, viverra justo bibendum, sagittis ipsum. Quisque in ornare dui, id scelerisque eros. </p>
-                    <div class="name">John Doe <span>Lorem Ispum</span></div>
-                    <div class="client-image"><img src="<?=$cdn_domaine?>/media/user.png" alt=""></div>
-                </div>
-            </li>
-            <li class="item">
-                <div class="testi-info">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at egestas diam. Phasellus eget tortor tellus. Aliquam erat volutpat. Nunc sed arcu malesuada, viverra justo bibendum, sagittis ipsum. Quisque in ornare dui, id scelerisque eros. </p>
-                    <div class="name">John Doe <span>Lorem Ispum</span></div>
+                    <p>Le processus d'import-export peut être complexe et difficile à naviguer, mais ROUMS GROUP a rendu tout le processus extrêmement facile et transparent pour moi. Ils ont travaillé en étroite collaboration avec moi pour comprendre mes besoins en matière d'import-export. </p>
+                    <div class="name">Tra bi Irie</div>
                     <div class="client-image"><img src="<?=$cdn_domaine?>/media/user.png" alt=""></div>
                 </div>
             </li>
@@ -225,8 +221,7 @@ include_once $layout.'/slider.php';
 <div class="team_wrap">
     <div class="container">
         <h1 class="wow slideInRight">Nos <span>Expert</span></h1>
-        <p class="wow slideInLeft">Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consec <br>
-            tetuer adipis elit, aliquam eget nibh etlibura.</p>
+        <p class="wow slideInLeft text-justify">ROUMS GROUP est une entreprise de construction et de rénovation qui se compose d'une équipe d'experts hautement qualifiés et professionnels. Chaque membre de l'équipe apporte des compétences et des connaissances uniques à l'entreprise, ce qui permet à ROUMS GROUP de fournir des services de construction et de rénovation de haute qualité à ses clients.</p>
         <div class="row">
             <div class="col-lg-3 col-md-6">
                 <div class="team wow slideInLeft">

@@ -31,12 +31,14 @@ require_once $layout.'/header.php';
                             <div class="single-post">
                                 <blockquote>
                                     <p>
-                                        Chez ROUMS GROUP, nous sommes également engagés envers la durabilité et l'environnement. Nous utilisons des matériaux de construction écologiques et durables chaque fois que possible, afin de minimiser notre impact sur l'environnement et de garantir un avenir meilleur pour les générations à venir.
-                                    </p>
+                                        <i>
+                                            Chez ROUMS GROUP, nous sommes également engagés envers la durabilité et l'environnement. Nous utilisons des matériaux de construction écologiques et durables chaque fois que possible, afin de minimiser notre impact sur l'environnement et de garantir un avenir meilleur pour les générations à venir.
+
+                                        </i>                                    </p>
                                 </blockquote>
-                           <p>
-                               Notre engagement envers la qualité et le service est ce qui distingue ROUMS GROUP des autres entreprises de construction et de rénovation. Nous sommes fiers de notre travail et de nos résultats, et nous nous engageons à vous offrir des résultats qui dépassent vos attentes.
-                           </p>
+                                <p>
+                                    Notre engagement envers la qualité et le service est ce qui distingue ROUMS GROUP des autres entreprises de construction et de rénovation. Nous sommes fiers de notre travail et de nos résultats, et nous nous engageons à vous offrir des résultats qui dépassent vos attentes.
+                                </p>
                                 <p>
                                     N'hésitez pas à parcourir notre site pour en savoir plus sur nos services et projets antérieurs. Si vous avez des questions ou si vous souhaitez discuter de votre projet avec nous, n'hésitez pas à nous contacter. Nous serons ravis de travailler avec vous pour réaliser votre vision de construction ou de rénovation.
                                 </p>

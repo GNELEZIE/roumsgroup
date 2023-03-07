@@ -18,7 +18,7 @@ require_once $layout.'/header.php';
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-2 py-3">
-                <h1><span>Questions fréquemment posées</span></h1>
+                <h3 class="font-17"><span>Questions fréquemment posées</span></h3>
                 <div class="faqs">
                     <div class="collaps">
                         <ul class="faqs-service">

@@ -14,23 +14,34 @@ require_once $layout.'/header.php';
                     <ul class="blogList">
                         <li>
                             <div class="postimg"><img src="<?=$cdn_domaine?>/media/equ.jpg" alt="Blog Title"></div>
+                         <p class="pt-5">
+                             ROUMS GROUP,  c'est aussi les fournitures et d'équipements de haute qualité. Nous sommes spécialisés dans la fourniture de produits et d'équipements pour une variété de secteurs, tels que la construction, la rénovation, l'industrie et l'hôtellerie.
+                         </p>
+                            <p>
 
-                            <div class="post-header margin-top30">
-                                <h4>Duis ultricies aliquet mauris</h4>
-                            </div>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu nulla eget nisl dapibus finibus. Maecenas quis sem vel neque rhoncus dignissim. Ut et eros rhoncus, gravida tellus auctor, lobortis diam. In eu porta purus, sit amet pulvinar eros. Cras accumsan dignissim convallis. Curabitur aliquam efficitur diam ac pellentesque. Fusce ac leo est. <br>
-                                <br>
-                                Duis ultricies aliquet mauris vestibulum lacinia. Nulla a nibh ipsum. In diam nisl, mattis ac magna eget, pulvinar viverra ipsum. Ut vitae diam ultrices, semper risus vitae, accumsan nunc. Suspendisse ut dolor non sem pellentesque vulputate eu ut eros. Proin mollis tortor in est semper porta. Etiam rutrum, est non pellentesque sollicitudin, ligula turpis mattis nisl, at egestas justo libero id libero. In ac pretium magna. Praesent lobortis sapien bibendum, scelerisque neque in, egestas lorem. Sed pharetra lectus a odio euismod mattis. Donec egestas ante ac magna blandit aliquet. In fringilla venenatis lacus in dictum. Donec vel lacus ut tellus feugiat ullamcorper in sit amet mauris. Sed aliquet accumsan risus in tristique. Nullam semper, massa in cursus hendrerit, turpis nibh eleifend leo, sed semper est massa vel odio. <br>
-                                <br>
-                                Integer vel magna urna. Vestibulum id nisi arcu. Ut a euismod sem. Pellentesque aliquet gravida lacus ac aliquet. Mauris sed ante a turpis suscipit sagittis sagittis eu dolor. Phasellus eget lectus dignissim, dictum ex vel, laoreet dui. In facilisis risus a posuere tincidunt. Vivamus sit amet sem sodales, semper lorem id, laoreet mi.</p>
+                                Nous nous engageons à fournir des produits de haute qualité pour répondre aux besoins de nos clients. Notre équipe travaille avec les meilleurs fournisseurs pour s'assurer que nous offrons les derniers produits et équipements sur le marché.
+                         </p>
                             <div class="single-post">
                                 <blockquote>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+                                    <p>
+                                        <i>
+                                            Chez ROUMS GROUP, nous sommes fiers de notre réputation de fournisseur fiable et professionnel. Nous offrons une gamme complète de produits et d'équipements pour répondre à tous vos besoins professionnels, des outils de construction aux équipements de sécurité en passant par les produits de nettoyage et d'entretien.
+                                        </i>
+                                    </p>
                                 </blockquote>
                             </div>
-                            <p>Ut a metus aliquet, ornare enim at, suscipit ante. Nullam sit amet ligula mollis, lacinia ligula mollis, blandit erat. Nam in diam ut mauris mattis malesuada vel nec nunc. Mauris bibendum, ipsum sed mollis suscipit, nisl elit mattis eros, nec semper nunc leo in arcu. Fusce non leo enim. Nam massa felis, tristique sit amet varius facilisis, tristique a tortor. Pellentesque sed pretium sem. Mauris euismod sem semper, commodo tortor id, vestibulum est. <br>
-                                <br>
-                                Donec molestie sagittis consequat. Vestibulum tempus tortor tortor, ac tincidunt dolor sodales nec. Nam faucibus odio et aliquet lacinia. Vivamus suscipit metus vel dictum finibus. In vitae blandit mi. Sed eros felis, commodo a finibus vitae, sodales eget enim. Quisque iaculis nulla quis est lacinia sodales. Praesent non dignissim neque. Vestibulum at placerat risus. Aliquam tincidunt posuere diam nec vehicula. Pellentesque cursus tincidunt arcu nec auctor. Nam quis nibh ipsum. </p>
+                            <p>
+                                Nous comprenons que chaque entreprise a des besoins uniques. C'est pourquoi nous offrons des services personnalisés pour répondre à vos besoins spécifiques. Nous travaillons en étroite collaboration avec vous pour comprendre vos exigences et nous nous engageons à fournir des solutions sur mesure pour vous aider à atteindre vos objectifs.
+                            </p>
+                            <p>
+                                Chez ROUMS GROUP, nous sommes également engagés envers la durabilité et l'environnement. Nous offrons une gamme de produits respectueux de l'environnement pour répondre aux besoins des entreprises qui cherchent à minimiser leur impact environnemental.
+                            </p>
+                            <p>
+                                Notre engagement envers la qualité et le service est ce qui nous distingue des autres entreprises de fournitures et d'équipements. Nous sommes fiers de notre travail et de nos résultats, et nous nous engageons à vous offrir un service qui dépasse vos attentes.
+                            </p>
+                            <p>
+                                N'hésitez pas à parcourir notre site pour en savoir plus sur nos produits et équipements. Si vous avez des questions ou si vous souhaitez discuter de vos besoins spécifiques, n'hésitez pas à nous contacter. Nous serons ravis de travailler avec vous pour répondre à vos besoins en matière de fournitures et d'équipements.
+                            </p>
                         </li>
                     </ul>
                 </div>

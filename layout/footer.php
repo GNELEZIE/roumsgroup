@@ -21,20 +21,18 @@
             <div class="col-lg-2 col-md-4 col-xs-12">
                 <h3>Navigation</h3>
                 <ul class="footer-links">
-                    <li> <a href="#"> Presentation </a></li>
-                    <li> <a href="#"> Nos services</a></li>
-                    <li> <a href="#"> Projets réalisés</a></li>
-                    <li> <a href="#"> Contact-nous </a></li>
+                    <li> <a href="<?=$domaine?>/a-propos"> Presentation </a></li>
+                    <li> <a href="<?=$domaine?>/services"> Nos services</a></li>
+                    <li> <a href="<?=$domaine?>/contact"> Contact-nous </a></li>
                     <li> <a href="#"> Faq </a></li>
-                    <li> <a href="#"> Contact </a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-12">
                 <h3>Services</h3>
                 <ul class="footer-links">
-                    <li><a href="#">Construction rénovation</a></li>
-                    <li><a href="#">Import export</a></li>
-                    <li><a href="#">Fournitures et équipements</a></li>
+                    <li><a href="<?=$domaine?>/construction">Construction rénovation</a></li>
+                    <li><a href="<?=$domaine?>/import-export">Import export</a></li>
+                    <li><a href="<?=$domaine?>/fournitures-et-equipements">Fournitures et équipements</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-12">
