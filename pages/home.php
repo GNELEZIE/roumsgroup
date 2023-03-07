@@ -81,91 +81,51 @@ include_once $layout.'/slider.php';
         </ul>
     </div>
 </div>
-<div class="porfolio-wrap">
-    <div class="container">
-        <h1 class="wow slideInRight">Dernier  <span>Project</span></h1>
+<div class="porfolio-wrap py-5">
+    <div class="container py-5">
+        <h1>Dernier  <span>Project</span></h1>
         <ul class="row portfolio-service">
-            <li class="col-lg-3 col-md-6 wow slideInLeft">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio.jpg" alt="">
+            <li class="col-lg-3 col-md-6">
+                <div class="project-image"><img src="<?=$cdn_domaine?>/media/m01.jpg" class="cover200" alt="">
                     <div class="portfolio-overley">
                         <div class="content">
-                            <h3><a href="#">Interior Design</a></h3>
-                            <div class="portfolio-tags"> <span>Builder</span>, <span>Repairman</span> </div>
+                            <h3><a href="#">Construction</a></h3>
+                            <div class="portfolio-tags"> <span>Construction</span>, <span>réparateur</span> </div>
                         </div>
                     </div>
                 </div>
             </li>
-            <li class="col-lg-3 col-md-6 wow slideInLeft">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio2.jpg" alt="">
+            <li class="col-lg-3 col-md-6">
+                <div class="project-image"><img src="<?=$cdn_domaine?>/media/m02.jpg"  class="cover200" alt="">
                     <div class="portfolio-overley">
                         <div class="content">
-                            <h3><a href="#">Home</a></h3>
-                            <div class="portfolio-tags"> <span>Builder</span>, <span>Repairman</span> </div>
+                            <h3><a href="#">Construction</a></h3>
+                            <div class="portfolio-tags"> <span>Construction</span>, <span>réparation</span> </div>
                         </div>
                     </div>
                 </div>
             </li>
-            <li class="col-lg-3 col-md-6 wow slideInLeft">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio3.jpg" alt="">
+            <li class="col-lg-3 col-md-6">
+                <div class="project-image"><img src="<?=$cdn_domaine?>/media/proj3.jpg"  class="cover200" alt="">
                     <div class="portfolio-overley">
                         <div class="content">
-                            <h3><a href="#">Green House</a></h3>
-                            <div class="portfolio-tags"> <span>Builder</span>, <span>Repairman</span> </div>
+                            <h3><a href="#">Piscine</a></h3>
+                            <div class="portfolio-tags"> <span>Constructeur</span>, <span>réparation</span> </div>
                         </div>
                     </div>
                 </div>
             </li>
-            <li class="col-lg-3 col-md-6 wow slideInLeft">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio4.jpg" alt="">
+            <li class="col-lg-3 col-md-6">
+                <div class="project-image"><img src="<?=$cdn_domaine?>/media/m03.jpg"  class="cover200" alt="">
                     <div class="portfolio-overley">
                         <div class="content">
-                            <h3><a href="#">Home</a></h3>
-                            <div class="portfolio-tags"> <span>Builder</span>, <span>Repairman</span> </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="col-lg-3 col-md-6 wow slideInLeft">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio5.jpg" alt="">
-                    <div class="portfolio-overley">
-                        <div class="content">
-                            <h3><a href="#">Interior Design</a></h3>
-                            <div class="portfolio-tags"> <span>Builder</span>, <span>Repairman</span> </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="col-lg-3 col-md-6 wow slideInLeft">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio6.jpg" alt="">
-                    <div class="portfolio-overley">
-                        <div class="content">
-                            <h3><a href="#">Home</a></h3>
-                            <div class="portfolio-tags"> <span>Builder</span>, <span>Repairman</span> </div>
+                            <h3><a href="#">Maison</a></h3>
+                            <div class="portfolio-tags"> <span>Construction</span>, <span>réparation</span> </div>
                         </div>
                     </div>
                 </div>
             </li>
 
-            <li class="col-lg-3 col-md-6 wow slideInLeft">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio12.jpg" alt="">
-                    <div class="portfolio-overley">
-                        <div class="content">
-                            <h3><a href="#">Home</a></h3>
-                            <div class="portfolio-tags"> <span>Builder</span>, <span>Repairman</span> </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="col-lg-3 col-md-6 wow slideInLeft">
-                <div class="project-image"><img src="<?=$cdn_domaine?>/media/portfolio10.jpg" alt="">
-                    <div class="portfolio-overley">
-                        <div class="content">
-                            <h3><a href="#">Home</a></h3>
-                            <div class="portfolio-tags"> <span>Builder</span>, <span>Repairman</span> </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -215,79 +175,6 @@ include_once $layout.'/slider.php';
                 </div>
             </li>
         </ul>
-    </div>
-</div>
-
-<div class="team_wrap">
-    <div class="container">
-        <h1 class="wow slideInRight">Nos <span>Expert</span></h1>
-        <p class="wow slideInLeft text-justify">ROUMS GROUP est une entreprise de construction et de rénovation qui se compose d'une équipe d'experts hautement qualifiés et professionnels. Chaque membre de l'équipe apporte des compétences et des connaissances uniques à l'entreprise, ce qui permet à ROUMS GROUP de fournir des services de construction et de rénovation de haute qualité à ses clients.</p>
-        <div class="row">
-            <div class="col-lg-3 col-md-6">
-                <div class="team wow slideInLeft">
-                    <div class="team-image"> <img src="<?=$cdn_domaine?>/media/team01.png" alt="">
-                        <div class="team-info">
-                            <h5><a href="#">STEVE JOBS</a></h5>
-                            <span>Supervisor</span>
-                            <ul class="experts">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="team wow slideInLeft">
-                    <div class="team-image"> <img src="<?=$cdn_domaine?>/media/team02.png" alt="">
-                        <div class="team-info">
-                            <h5><a href="#">Alex Cameron</a></h5>
-                            <span>Supervisor</span>
-                            <ul class="experts">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="team wow slideInLeft">
-                    <div class="team-image"> <img src="<?=$cdn_domaine?>/media/team03.png" alt="">
-                        <div class="team-info">
-                            <h5><a href="#">Jack Peterson</a></h5>
-                            <span>Supervisor</span>
-                            <ul class="experts">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="team wow slideInLeft">
-                    <div class="team-image"> <img src="<?=$cdn_domaine?>/media/team04.png" alt="">
-                        <div class="team-info">
-                            <h5><a href="#">Adam Lewis</a></h5>
-                            <span>Supervisor</span>
-                            <ul class="experts">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 

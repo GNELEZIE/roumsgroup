@@ -34,7 +34,7 @@ require_once $layout.'/header.php';
         <p class="wow slideInLeft text-justify">
             Voici une présentation des membres de l'équipe de ROUMS GROUP :</p>
         <p  class="wow slideInLeft text-justify">
-            Le Directeur Général : M. KAMAROU ANIS est le fondateur et le directeur général de ROUMS GROUP. Avec plus de 20 ans d'expérience dans le domaine de la construction et de la rénovation, il apporte une expertise inégalée à l'entreprise.
+            Le Directeur Général : M. KAMAROU ANIS est le fondateur et le directeur général de ROUMS GROUP. Avec une expérience solide acquise dans le domaine de la construction et de la rénovation, il apporte une expertise inégalée à l'entreprise.
         </p>
         <p  class="wow slideInLeft text-justify">
             Les Chefs de Projet : Les chefs de projet sont les personnes en charge de la gestion de chaque projet de construction et de rénovation. Ils travaillent en étroite collaboration avec les clients pour comprendre leurs besoins et s'assurer que chaque projet est exécuté selon les spécifications du client.
@@ -53,72 +53,6 @@ require_once $layout.'/header.php';
             Dans l'ensemble, l'équipe de ROUMS GROUP est un groupe de professionnels passionnés et dévoués qui travaillent ensemble pour offrir des services de construction et de rénovation de haute qualité à leurs clients. Chaque membre de l'équipe apporte une expertise unique à l'entreprise, ce qui permet à ROUMS GROUP de se démarquer de ses concurrents et de fournir des résultats exceptionnels à ses clients.
         </p>
 
-        <div class="row">
-            <div class="col-lg-3 col-md-6">
-                <div class="team">
-                    <div class="team-image"> <img src="<?=$cdn_domaine?>/media/team01.png" alt="">
-                        <div class="team-info">
-                            <h5><a href="#">STEVE JOBS</a></h5>
-                            <span>Supervisor</span>
-                            <ul class="experts">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="team">
-                    <div class="team-image"> <img src="<?=$cdn_domaine?>/media/team02.png" alt="">
-                        <div class="team-info">
-                            <h5><a href="#">Alex Cameron</a></h5>
-                            <span>Supervisor</span>
-                            <ul class="experts">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="team">
-                    <div class="team-image"> <img src="<?=$cdn_domaine?>/media/team03.png" alt="">
-                        <div class="team-info">
-                            <h5><a href="#">Jack Peterson</a></h5>
-                            <span>Supervisor</span>
-                            <ul class="experts">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="team">
-                    <div class="team-image"> <img src="<?=$cdn_domaine?>/media/team04.png" alt="">
-                        <div class="team-info">
-                            <h5><a href="#">Adam Lewis</a></h5>
-                            <span>Supervisor</span>
-                            <ul class="experts">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 
